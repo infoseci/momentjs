@@ -2882,7 +2882,7 @@
 
     //! moment.js locale configuration
 
-    moment.defineLocale('en-au', {
+    moment.defineLocale('au', {
         months: 'January_February_March_April_May_June_July_August_September_October_November_December'.split(
             '_'
         ),
