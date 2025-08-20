@@ -1,5 +1,5 @@
 //! moment.js locale configuration
-//! locale : Armenian [hy-am]
+//! locale : Armenian [am]
 //! author : Armendarabyan : https://github.com/armendarabyan
 
 ;(function (global, factory) {
@@ -11,7 +11,7 @@
 
     //! moment.js locale configuration
 
-    var hyAm = moment.defineLocale('hy-am', {
+    var am = moment.defineLocale('am', {
         months: {
             format: 'հունվարի_փետրվարի_մարտի_ապրիլի_մայիսի_հունիսի_հուլիսի_օգոստոսի_սեպտեմբերի_հոկտեմբերի_նոյեմբերի_դեկտեմբերի'.split(
                 '_'
@@ -100,6 +100,6 @@
         },
     });
 
-    return hyAm;
+    return am;
 
 })));

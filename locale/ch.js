@@ -1,5 +1,5 @@
 //! moment.js locale configuration
-//! locale : German (Switzerland) [de-ch]
+//! locale : German (Switzerland) [ch]
 //! author : sschueller : https://github.com/sschueller
 
 ;(function (global, factory) {
@@ -26,7 +26,7 @@
         return withoutSuffix ? format[key][0] : format[key][1];
     }
 
-    var deCh = moment.defineLocale('de-ch', {
+    var ch = moment.defineLocale('ch', {
         months: 'Januar_Februar_März_April_Mai_Juni_Juli_August_September_Oktober_November_Dezember'.split(
             '_'
         ),
@@ -82,6 +82,6 @@
         },
     });
 
-    return deCh;
+    return ch;
 
 })));

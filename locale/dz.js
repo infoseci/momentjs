@@ -1,5 +1,5 @@
 //! moment.js locale configuration
-//! locale : Arabic (Algeria) [ar-dz]
+//! locale : Arabic (Algeria) [dz]
 //! author : Amine Roukh: https://github.com/Amine27
 //! author : Abdel Said: https://github.com/abdelsaid
 //! author : Ahmed Elkhatib
@@ -103,7 +103,7 @@
             'ديسمبر',
         ];
 
-    var arDz = moment.defineLocale('ar-dz', {
+    var dz = moment.defineLocale('dz', {
         months: months,
         monthsShort: months,
         weekdays: 'الأحد_الإثنين_الثلاثاء_الأربعاء_الخميس_الجمعة_السبت'.split('_'),
@@ -162,6 +162,6 @@
         },
     });
 
-    return arDz;
+    return dz;
 
 })));

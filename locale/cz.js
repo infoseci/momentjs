@@ -1,5 +1,5 @@
 //! moment.js locale configuration
-//! locale : Czech [cs]
+//! locale : Czech [cz]
 //! author : petrbela : https://github.com/petrbela
 
 ;(function (global, factory) {
@@ -98,7 +98,7 @@
         }
     }
 
-    var cs = moment.defineLocale('cs', {
+    var cz = moment.defineLocale('cz', {
         months: months,
         monthsShort: monthsShort,
         monthsRegex: monthsRegex,
@@ -187,6 +187,6 @@
         },
     });
 
-    return cs;
+    return cz;
 
 })));

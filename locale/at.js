@@ -1,5 +1,5 @@
 //! moment.js locale configuration
-//! locale : German (Austria) [de-at]
+//! locale : German (Austria) [at]
 //! author : lluchs : https://github.com/lluchs
 //! author: Menelion Elensúle: https://github.com/Oire
 //! author : Martin Groller : https://github.com/MadMG
@@ -29,7 +29,7 @@
         return withoutSuffix ? format[key][0] : format[key][1];
     }
 
-    var deAt = moment.defineLocale('de-at', {
+    var at = moment.defineLocale('at', {
         months: 'Jänner_Februar_März_April_Mai_Juni_Juli_August_September_Oktober_November_Dezember'.split(
             '_'
         ),
@@ -85,6 +85,6 @@
         },
     });
 
-    return deAt;
+    return at;
 
 })));

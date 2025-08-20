@@ -1,5 +1,5 @@
 //! moment.js locale configuration
-//! locale : Bosnian [bs]
+//! locale : Bosnian [ba]
 //! author : Nedim Cholich : https://github.com/frontyard
 //! author : Rasid Redzic : https://github.com/rasidre
 //! based on (hr) translation by Bojan Marković
@@ -84,7 +84,7 @@
         }
     }
 
-    var bs = moment.defineLocale('bs', {
+    var ba = moment.defineLocale('ba', {
         months: 'januar_februar_mart_april_maj_juni_juli_august_septembar_oktobar_novembar_decembar'.split(
             '_'
         ),
@@ -166,6 +166,6 @@
         },
     });
 
-    return bs;
+    return ba;
 
 })));

@@ -1,5 +1,5 @@
 //! moment.js locale configuration
-//! locale : Estonian [et]
+//! locale : Estonian [ee]
 //! author : Henry Kehlmann : https://github.com/madhenry
 //! improvements : Illimar Tambek : https://github.com/ragulka
 
@@ -32,7 +32,7 @@
         return isFuture ? format[key][0] : format[key][1];
     }
 
-    var et = moment.defineLocale('et', {
+    var ee = moment.defineLocale('ee', {
         months: 'jaanuar_veebruar_märts_aprill_mai_juuni_juuli_august_september_oktoober_november_detsember'.split(
             '_'
         ),
@@ -84,6 +84,6 @@
         },
     });
 
-    return et;
+    return ee;
 
 })));

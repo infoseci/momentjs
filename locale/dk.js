@@ -1,5 +1,5 @@
 //! moment.js locale configuration
-//! locale : Danish [da]
+//! locale : Danish [dk]
 //! author : Ulrik Nielsen : https://github.com/mrbase
 
 ;(function (global, factory) {
@@ -11,7 +11,7 @@
 
     //! moment.js locale configuration
 
-    var da = moment.defineLocale('da', {
+    var dk = moment.defineLocale('dk', {
         months: 'januar_februar_marts_april_maj_juni_juli_august_september_oktober_november_december'.split(
             '_'
         ),
@@ -59,6 +59,6 @@
         },
     });
 
-    return da;
+    return dk;
 
 })));

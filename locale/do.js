@@ -1,5 +1,5 @@
 //! moment.js locale configuration
-//! locale : Spanish (Dominican Republic) [es-do]
+//! locale : Spanish (Dominican Republic) [do]
 
 ;(function (global, factory) {
    typeof exports === 'object' && typeof module !== 'undefined'
@@ -32,7 +32,7 @@
         monthsRegex =
             /^(enero|febrero|marzo|abril|mayo|junio|julio|agosto|septiembre|octubre|noviembre|diciembre|ene\.?|feb\.?|mar\.?|abr\.?|may\.?|jun\.?|jul\.?|ago\.?|sep\.?|oct\.?|nov\.?|dic\.?)/i;
 
-    var esDo = moment.defineLocale('es-do', {
+    var dom = moment.defineLocale('do', {
         months: 'enero_febrero_marzo_abril_mayo_junio_julio_agosto_septiembre_octubre_noviembre_diciembre'.split(
             '_'
         ),
@@ -114,6 +114,6 @@
         },
     });
 
-    return esDo;
+    return dom;
 
 })));

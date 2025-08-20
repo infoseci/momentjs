@@ -1,5 +1,5 @@
 //! moment.js locale configuration
-//! locale : Greek [el]
+//! locale : Greek [gr]
 //! author : Aggelos Karalias : https://github.com/mehiel
 
 ;(function (global, factory) {
@@ -18,7 +18,7 @@
         );
     }
 
-    var el = moment.defineLocale('el', {
+    var gr = moment.defineLocale('gr', {
         monthsNominativeEl:
             'Ιανουάριος_Φεβρουάριος_Μάρτιος_Απρίλιος_Μάιος_Ιούνιος_Ιούλιος_Αύγουστος_Σεπτέμβριος_Οκτώβριος_Νοέμβριος_Δεκέμβριος'.split(
                 '_'
@@ -112,6 +112,6 @@
         },
     });
 
-    return el;
+    return gr;
 
 })));

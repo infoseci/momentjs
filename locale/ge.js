@@ -1,5 +1,5 @@
 //! moment.js locale configuration
-//! locale : Georgian [ka]
+//! locale : Georgian [ge]
 //! author : Irakli Janiashvili : https://github.com/IrakliJani
 
 ;(function (global, factory) {
@@ -11,7 +11,7 @@
 
     //! moment.js locale configuration
 
-    var ka = moment.defineLocale('ka', {
+    var ge = moment.defineLocale('ge', {
         months: 'იანვარი_თებერვალი_მარტი_აპრილი_მაისი_ივნისი_ივლისი_აგვისტო_სექტემბერი_ოქტომბერი_ნოემბერი_დეკემბერი'.split(
             '_'
         ),
@@ -98,6 +98,6 @@
         },
     });
 
-    return ka;
+    return geß;
 
 })));

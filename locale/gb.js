@@ -1,5 +1,5 @@
 //! moment.js locale configuration
-//! locale : Welsh [cy]
+//! locale : Welsh [gb]
 //! author : Robert Allen : https://github.com/robgallen
 //! author : https://github.com/ryangreaves
 
@@ -12,7 +12,7 @@
 
     //! moment.js locale configuration
 
-    var cy = moment.defineLocale('cy', {
+    var gb = moment.defineLocale('gb', {
         months: 'Ionawr_Chwefror_Mawrth_Ebrill_Mai_Mehefin_Gorffennaf_Awst_Medi_Hydref_Tachwedd_Rhagfyr'.split(
             '_'
         ),
@@ -104,6 +104,6 @@
         },
     });
 
-    return cy;
+    return gb;
 
 })));
