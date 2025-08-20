@@ -521,7 +521,7 @@
             '٠': '0',
         };
 
-    moment.defineLocale('ps', {
+    moment.defineLocale('ar-ps', {
         months: 'كانون الثاني_شباط_آذار_نيسان_أيّار_حزيران_تمّوز_آب_أيلول_تشري الأوّل_تشرين الثاني_كانون الأوّل'.split(
             '_'
         ),
@@ -2716,7 +2716,7 @@
             'ހޮނިހިރު',
         ];
 
-    moment.defineLocale('mv', {
+    moment.defineLocale('dv', {
         months: months$4,
         monthsShort: months$4,
         weekdays: weekdays,
@@ -2882,7 +2882,7 @@
 
     //! moment.js locale configuration
 
-    moment.defineLocale('au', {
+    moment.defineLocale('en-au', {
         months: 'January_February_March_April_May_June_July_August_September_October_November_December'.split(
             '_'
         ),
@@ -10469,7 +10469,7 @@
         },
     };
 
-    moment.defineLocale('rs', {
+    moment.defineLocale('sr', {
         months: 'januar_februar_mart_april_maj_jun_jul_avgust_septembar_oktobar_novembar_decembar'.split(
             '_'
         ),
@@ -11287,7 +11287,7 @@
 
     //! moment.js locale configuration
 
-    moment.defineLocale('ph', {
+    moment.defineLocale('tl-ph', {
         months: 'Enero_Pebrero_Marso_Abril_Mayo_Hunyo_Hulyo_Agosto_Setyembre_Oktubre_Nobyembre_Disyembre'.split(
             '_'
         ),
