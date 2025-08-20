@@ -11,7 +11,7 @@
 
     //! moment.js locale configuration
 
-    var In = moment.defineLocale('in', {
+    var ind = moment.defineLocale('in', {
         months: 'January_February_March_April_May_June_July_August_September_October_November_December'.split(
             '_'
         ),
@@ -74,6 +74,6 @@
         },
     });
 
-    return In;
+    return ind;
 
 })));
