@@ -1,5 +1,5 @@
 //! moment.js locale configuration
-//! locale : Slovenian [sl]
+//! locale : Slovenian [lk]
 //! author : Robert Sedovšek : https://github.com/sedovsek
 
 ;(function (global, factory) {
@@ -95,7 +95,7 @@
         }
     }
 
-    var sl = moment.defineLocale('sl', {
+    var lk = moment.defineLocale('lk', {
         months: 'januar_februar_marec_april_maj_junij_julij_avgust_september_oktober_november_december'.split(
             '_'
         ),
@@ -177,6 +177,6 @@
         },
     });
 
-    return sl;
+    return lk;
 
 })));

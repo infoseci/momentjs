@@ -1,5 +1,5 @@
 //! moment.js locale configuration
-//! locale : Spanish (Mexico) [es-mx]
+//! locale : Spanish (Mexico) [mx]
 //! author : JC Franco : https://github.com/jcfranco
 
 ;(function (global, factory) {
@@ -33,7 +33,7 @@
         monthsRegex =
             /^(enero|febrero|marzo|abril|mayo|junio|julio|agosto|septiembre|octubre|noviembre|diciembre|ene\.?|feb\.?|mar\.?|abr\.?|may\.?|jun\.?|jul\.?|ago\.?|sep\.?|oct\.?|nov\.?|dic\.?)/i;
 
-    var esMx = moment.defineLocale('es-mx', {
+    var mx = moment.defineLocale('mx', {
         months: 'enero_febrero_marzo_abril_mayo_junio_julio_agosto_septiembre_octubre_noviembre_diciembre'.split(
             '_'
         ),
@@ -116,6 +116,6 @@
         invalidDate: 'Fecha inválida',
     });
 
-    return esMx;
+    return mx;
 
 })));

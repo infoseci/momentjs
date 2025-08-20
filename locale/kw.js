@@ -1,5 +1,5 @@
 //! moment.js locale configuration
-//! locale : Arabic (Kuwait) [ar-kw]
+//! locale : Arabic (Kuwait) [kw]
 //! author : Nusret Parlak: https://github.com/nusretparlak
 
 ;(function (global, factory) {
@@ -11,7 +11,7 @@
 
     //! moment.js locale configuration
 
-    var arKw = moment.defineLocale('ar-kw', {
+    var kw = moment.defineLocale('kw', {
         months: 'يناير_فبراير_مارس_أبريل_ماي_يونيو_يوليوز_غشت_شتنبر_أكتوبر_نونبر_دجنبر'.split(
             '_'
         ),
@@ -61,6 +61,6 @@
         },
     });
 
-    return arKw;
+    return kw;
 
 })));

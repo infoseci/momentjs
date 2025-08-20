@@ -1,5 +1,5 @@
 //! moment.js locale configuration
-//! locale : English (Israel) [en-il]
+//! locale : English (Israel) [il]
 //! author : Chris Gedrim : https://github.com/chrisgedrim
 
 ;(function (global, factory) {
@@ -11,7 +11,7 @@
 
     //! moment.js locale configuration
 
-    var enIl = moment.defineLocale('en-il', {
+    var il = moment.defineLocale('il', {
         months: 'January_February_March_April_May_June_July_August_September_October_November_December'.split(
             '_'
         ),
@@ -70,6 +70,6 @@
         },
     });
 
-    return enIl;
+    return il;
 
 })));

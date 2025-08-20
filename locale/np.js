@@ -1,5 +1,5 @@
 //! moment.js locale configuration
-//! locale : Nepalese [ne]
+//! locale : Nepalese [np]
 //! author : suvash : https://github.com/suvash
 
 ;(function (global, factory) {
@@ -36,7 +36,7 @@
             '०': '0',
         };
 
-    var ne = moment.defineLocale('ne', {
+    var np = moment.defineLocale('np', {
         months: 'जनवरी_फेब्रुवरी_मार्च_अप्रिल_मई_जुन_जुलाई_अगष्ट_सेप्टेम्बर_अक्टोबर_नोभेम्बर_डिसेम्बर'.split(
             '_'
         ),
@@ -127,6 +127,6 @@
         },
     });
 
-    return ne;
+    return np;
 
 })));

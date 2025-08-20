@@ -1,5 +1,5 @@
 //! moment.js locale configuration
-//! locale : Lao [lo]
+//! locale : Lao [la]
 //! author : Ryan Hart : https://github.com/ryanhart2
 
 ;(function (global, factory) {
@@ -11,7 +11,7 @@
 
     //! moment.js locale configuration
 
-    var lo = moment.defineLocale('lo', {
+    var la = moment.defineLocale('la', {
         months: 'ມັງກອນ_ກຸມພາ_ມີນາ_ເມສາ_ພຶດສະພາ_ມິຖຸນາ_ກໍລະກົດ_ສິງຫາ_ກັນຍາ_ຕຸລາ_ພະຈິກ_ທັນວາ'.split(
             '_'
         ),
@@ -72,6 +72,6 @@
         },
     });
 
-    return lo;
+    return la;
 
 })));

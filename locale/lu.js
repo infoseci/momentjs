@@ -1,5 +1,5 @@
 //! moment.js locale configuration
-//! locale : Luxembourgish [lb]
+//! locale : Luxembourgish [lu]
 //! author : mweimerskirch : https://github.com/mweimerskirch
 //! author : David Raison : https://github.com/kwisatz
 
@@ -78,7 +78,7 @@
         }
     }
 
-    var lb = moment.defineLocale('lb', {
+    var lu = moment.defineLocale('lu', {
         months: 'Januar_Februar_Mäerz_Abrëll_Mee_Juni_Juli_August_September_Oktober_November_Dezember'.split(
             '_'
         ),
@@ -143,6 +143,6 @@
         },
     });
 
-    return lb;
+    return lu;
 
 })));

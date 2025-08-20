@@ -1,5 +1,5 @@
 //! moment.js locale configuration
-//! locale : Persian [fa]
+//! locale : Persian [ir]
 //! author : Ebrahim Byagowi : https://github.com/ebraminio
 
 ;(function (global, factory) {
@@ -36,7 +36,7 @@
             '۰': '0',
         };
 
-    var fa = moment.defineLocale('fa', {
+    var ir = moment.defineLocale('ir', {
         months: 'ژانویه_فوریه_مارس_آوریل_مه_ژوئن_ژوئیه_اوت_سپتامبر_اکتبر_نوامبر_دسامبر'.split(
             '_'
         ),
@@ -119,6 +119,6 @@
         },
     });
 
-    return fa;
+    return ir;
 
 })));

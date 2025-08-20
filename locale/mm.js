@@ -1,5 +1,5 @@
 //! moment.js locale configuration
-//! locale : Burmese [my]
+//! locale : Burmese [mm]
 //! author : Squar team, mysquar.com
 //! author : David Rossellat : https://github.com/gholadr
 //! author : Tin Aung Lin : https://github.com/thanyawzinmin
@@ -38,7 +38,7 @@
             '၀': '0',
         };
 
-    var my = moment.defineLocale('my', {
+    var mm = moment.defineLocale('mm', {
         months: 'ဇန်နဝါရီ_ဖေဖော်ဝါရီ_မတ်_ဧပြီ_မေ_ဇွန်_ဇူလိုင်_သြဂုတ်_စက်တင်ဘာ_အောက်တိုဘာ_နိုဝင်ဘာ_ဒီဇင်ဘာ'.split(
             '_'
         ),
@@ -97,6 +97,6 @@
         },
     });
 
-    return my;
+    return mm;
 
 })));

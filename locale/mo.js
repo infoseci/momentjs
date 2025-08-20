@@ -1,5 +1,5 @@
 //! moment.js locale configuration
-//! locale : Chinese (Macau) [zh-mo]
+//! locale : Chinese (Macau) [mo]
 //! author : Ben : https://github.com/ben-lin
 //! author : Chris Lam : https://github.com/hehachris
 //! author : Tan Yuanhong : https://github.com/le0tan
@@ -13,7 +13,7 @@
 
     //! moment.js locale configuration
 
-    var zhMo = moment.defineLocale('zh-mo', {
+    var  mo = moment.defineLocale('mo', {
         months: '一月_二月_三月_四月_五月_六月_七月_八月_九月_十月_十一月_十二月'.split(
             '_'
         ),
@@ -106,6 +106,6 @@
         },
     });
 
-    return zhMo;
+    return mo;
 
 })));

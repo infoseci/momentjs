@@ -1,5 +1,5 @@
 //! moment.js locale configuration
-//! locale : Kazakh [kk]
+//! locale : Kazakh [kz]
 //! authors : Nurlan Rakhimzhanov : https://github.com/nurlan
 
 ;(function (global, factory) {
@@ -34,7 +34,7 @@
         100: '-ші',
     };
 
-    var kk = moment.defineLocale('kk', {
+    var kz = moment.defineLocale('kz', {
         months: 'қаңтар_ақпан_наурыз_сәуір_мамыр_маусым_шілде_тамыз_қыркүйек_қазан_қараша_желтоқсан'.split(
             '_'
         ),
@@ -88,6 +88,6 @@
         },
     });
 
-    return kk;
+    return kz;
 
 })));

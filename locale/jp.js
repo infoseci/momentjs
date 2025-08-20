@@ -1,5 +1,5 @@
 //! moment.js locale configuration
-//! locale : Japanese [ja]
+//! locale : Japanese [jp]
 //! author : LI Long : https://github.com/baryon
 
 ;(function (global, factory) {
@@ -11,7 +11,7 @@
 
     //! moment.js locale configuration
 
-    var ja = moment.defineLocale('ja', {
+    var jp = moment.defineLocale('jp', {
         eras: [
             {
                 since: '2019-05-01',
@@ -154,6 +154,6 @@
         },
     });
 
-    return ja;
+    return jp;
 
 })));

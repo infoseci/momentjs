@@ -1,5 +1,5 @@
 //! moment.js locale configuration
-//! locale : Tajik [tg]
+//! locale : Tajik [tj]
 //! author : Orif N. Jr. : https://github.com/orif-jr
 
 ;(function (global, factory) {
@@ -36,7 +36,7 @@
         100: '-ум',
     };
 
-    var tg = moment.defineLocale('tg', {
+    var tj = moment.defineLocale('tj', {
         months: {
             format: 'январи_феврали_марти_апрели_майи_июни_июли_августи_сентябри_октябри_ноябри_декабри'.split(
                 '_'
@@ -123,6 +123,6 @@
         },
     });
 
-    return tg;
+    return tj;
 
 })));

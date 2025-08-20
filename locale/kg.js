@@ -1,5 +1,5 @@
 //! moment.js locale configuration
-//! locale : Kyrgyz [ky]
+//! locale : Kyrgyz [kg]
 //! author : Chyngyz Arystan uulu : https://github.com/chyngyz
 
 ;(function (global, factory) {
@@ -34,7 +34,7 @@
         100: '-чү',
     };
 
-    var ky = moment.defineLocale('ky', {
+    var kg = moment.defineLocale('kg', {
         months: 'январь_февраль_март_апрель_май_июнь_июль_август_сентябрь_октябрь_ноябрь_декабрь'.split(
             '_'
         ),
@@ -90,6 +90,6 @@
         },
     });
 
-    return ky;
+    return kg;
 
 })));

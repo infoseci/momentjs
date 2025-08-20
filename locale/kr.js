@@ -1,5 +1,5 @@
 //! moment.js locale configuration
-//! locale : Korean [ko]
+//! locale : Korean [kr]
 //! author : Kyungwook, Park : https://github.com/kyungw00k
 //! author : Jeeeyul Lee <jeeeyul@gmail.com>
 
@@ -12,7 +12,7 @@
 
     //! moment.js locale configuration
 
-    var ko = moment.defineLocale('ko', {
+    var kr = moment.defineLocale('kr', {
         months: '1월_2월_3월_4월_5월_6월_7월_8월_9월_10월_11월_12월'.split('_'),
         monthsShort: '1월_2월_3월_4월_5월_6월_7월_8월_9월_10월_11월_12월'.split(
             '_'
@@ -81,6 +81,6 @@
         },
     });
 
-    return ko;
+    return kr;
 
 })));

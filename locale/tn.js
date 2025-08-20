@@ -1,5 +1,5 @@
 //! moment.js locale configuration
-//! locale  :  Arabic (Tunisia) [ar-tn]
+//! locale  :  Arabic (Tunisia) [tn]
 //! author : Nader Toukabri : https://github.com/naderio
 
 ;(function (global, factory) {
@@ -11,7 +11,7 @@
 
     //! moment.js locale configuration
 
-    var arTn = moment.defineLocale('ar-tn', {
+    var tn = moment.defineLocale('tn', {
         months: 'جانفي_فيفري_مارس_أفريل_ماي_جوان_جويلية_أوت_سبتمبر_أكتوبر_نوفمبر_ديسمبر'.split(
             '_'
         ),
@@ -61,6 +61,6 @@
         },
     });
 
-    return arTn;
+    return tn;
 
 })));

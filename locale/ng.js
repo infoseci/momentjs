@@ -1,5 +1,5 @@
 //! moment.js locale configuration
-//! locale : Yoruba Nigeria [yo]
+//! locale : Yoruba Nigeria [ng]
 //! author : Atolagbe Abisoye : https://github.com/andela-batolagbe
 
 ;(function (global, factory) {
@@ -11,7 +11,7 @@
 
     //! moment.js locale configuration
 
-    var yo = moment.defineLocale('yo', {
+    var ng = moment.defineLocale('ng', {
         months: 'Sẹ́rẹ́_Èrèlè_Ẹrẹ̀nà_Ìgbé_Èbibi_Òkùdu_Agẹmo_Ògún_Owewe_Ọ̀wàrà_Bélú_Ọ̀pẹ̀̀'.split(
             '_'
         ),
@@ -59,6 +59,6 @@
         },
     });
 
-    return yo;
+    return ng;
 
 })));

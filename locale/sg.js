@@ -1,5 +1,5 @@
 //! moment.js locale configuration
-//! locale : English (Singapore) [en-sg]
+//! locale : English (Singapore) [sg]
 //! author : Matthew Castrillon-Madrigal : https://github.com/techdimension
 
 ;(function (global, factory) {
@@ -11,7 +11,7 @@
 
     //! moment.js locale configuration
 
-    var enSg = moment.defineLocale('en-sg', {
+    var sg = moment.defineLocale('sg', {
         months: 'January_February_March_April_May_June_July_August_September_October_November_December'.split(
             '_'
         ),
@@ -74,6 +74,6 @@
         },
     });
 
-    return enSg;
+    return sg;
 
 })));

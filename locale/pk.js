@@ -1,5 +1,5 @@
 //! moment.js locale configuration
-//! locale : Sindhi [sd]
+//! locale : Sindhi [pk]
 //! author : Narain Sagar : https://github.com/narainsagar
 
 ;(function (global, factory) {
@@ -27,7 +27,7 @@
         ],
         days = ['آچر', 'سومر', 'اڱارو', 'اربع', 'خميس', 'جمع', 'ڇنڇر'];
 
-    var sd = moment.defineLocale('sd', {
+    var pk = moment.defineLocale('pk', {
         months: months,
         monthsShort: months,
         weekdays: days,
@@ -87,6 +87,6 @@
         },
     });
 
-    return sd;
+    return pk;
 
 })));

@@ -1,5 +1,5 @@
 //! moment.js locale configuration
-//! locale : Arabic (Saudi Arabia) [ar-sa]
+//! locale : Arabic (Saudi Arabia) [sa]
 //! author : Suhail Alkowaileet : https://github.com/xsoh
 
 ;(function (global, factory) {
@@ -36,7 +36,7 @@
             '٠': '0',
         };
 
-    var arSa = moment.defineLocale('ar-sa', {
+    var sa = moment.defineLocale('sa', {
         months: 'يناير_فبراير_مارس_أبريل_مايو_يونيو_يوليو_أغسطس_سبتمبر_أكتوبر_نوفمبر_ديسمبر'.split(
             '_'
         ),
@@ -111,6 +111,6 @@
         },
     });
 
-    return arSa;
+    return sa;
 
 })));

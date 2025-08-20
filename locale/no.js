@@ -1,5 +1,5 @@
 //! moment.js locale configuration
-//! locale : Norwegian Bokmål [nb]
+//! locale : Norwegian Bokmål [no]
 //! authors : Espen Hovlandsdal : https://github.com/rexxars
 //!           Sigurd Gartmann : https://github.com/sigurdga
 //!           Stephen Ramthun : https://github.com/stephenramthun
@@ -13,7 +13,7 @@
 
     //! moment.js locale configuration
 
-    var nb = moment.defineLocale('nb', {
+    var no = moment.defineLocale('no', {
         months: 'januar_februar_mars_april_mai_juni_juli_august_september_oktober_november_desember'.split(
             '_'
         ),
@@ -66,6 +66,6 @@
         },
     });
 
-    return nb;
+    return no;
 
 })));

@@ -1,5 +1,5 @@
 //! moment.js locale configuration
-//! locale : siSwati [ss]
+//! locale : siSwati [sz]
 //! author : Nicolai Davies<mail@nicolai.io> : https://github.com/nicolaidavies
 
 ;(function (global, factory) {
@@ -11,7 +11,7 @@
 
     //! moment.js locale configuration
 
-    var ss = moment.defineLocale('ss', {
+    var sz = moment.defineLocale('sz', {
         months: "Bhimbidvwane_Indlovana_Indlov'lenkhulu_Mabasa_Inkhwekhweti_Inhlaba_Kholwane_Ingci_Inyoni_Imphala_Lweti_Ingongoni".split(
             '_'
         ),

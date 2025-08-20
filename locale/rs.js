@@ -1,5 +1,5 @@
 //! moment.js locale configuration
-//! locale : Serbian [sr]
+//! locale : Serbian [rs]
 //! author : Milan Janačković<milanjanackovic@gmail.com> : https://github.com/milan-j
 //! author : Stefan Crnjaković <stefan@hotmail.rs> : https://github.com/crnjakovic
 
@@ -57,7 +57,7 @@
         },
     };
 
-    var sr = moment.defineLocale('sr', {
+    var rs = moment.defineLocale('rs', {
         months: 'januar_februar_mart_april_maj_jun_jul_avgust_septembar_oktobar_novembar_decembar'.split(
             '_'
         ),
@@ -135,6 +135,6 @@
         },
     });
 
-    return sr;
+    return rs;
 
 })));

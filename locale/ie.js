@@ -1,5 +1,5 @@
 //! moment.js locale configuration
-//! locale : English (Ireland) [en-ie]
+//! locale : English (Ireland) [ie]
 //! author : Chris Cartlidge : https://github.com/chriscartlidge
 
 ;(function (global, factory) {
@@ -11,7 +11,7 @@
 
     //! moment.js locale configuration
 
-    var enIe = moment.defineLocale('en-ie', {
+    var ie = moment.defineLocale('ie', {
         months: 'January_February_March_April_May_June_July_August_September_October_November_December'.split(
             '_'
         ),
@@ -74,6 +74,6 @@
         },
     });
 
-    return enIe;
+    return ie;
 
 })));

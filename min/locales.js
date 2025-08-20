@@ -1,8 +1,8 @@
 ;(function (global, factory) {
-   typeof exports === 'object' && typeof module !== 'undefined'
-       && typeof require === 'function' ? factory(require('../moment')) :
-   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
-   factory(global.moment)
+    typeof exports === 'object' && typeof module !== 'undefined'
+    && typeof require === 'function' ? factory(require('../moment')) :
+        typeof define === 'function' && define.amd ? define(['../moment'], factory) :
+            factory(global.moment)
 }(this, (function (moment) { 'use strict';
 
     //! moment.js locale configuration
@@ -79,14 +79,14 @@
             return n === 0
                 ? 0
                 : n === 1
-                  ? 1
-                  : n === 2
-                    ? 2
-                    : n % 100 >= 3 && n % 100 <= 10
-                      ? 3
-                      : n % 100 >= 11
-                        ? 4
-                        : 5;
+                    ? 1
+                    : n === 2
+                        ? 2
+                        : n % 100 >= 3 && n % 100 <= 10
+                            ? 3
+                            : n % 100 >= 11
+                                ? 4
+                                : 5;
         },
         plurals = {
             s: [
@@ -163,7 +163,7 @@
             'ديسمبر',
         ];
 
-    moment.defineLocale('dz', {
+    moment.defineLocale('ar-dz', {
         months: months,
         monthsShort: months,
         weekdays: 'الأحد_الإثنين_الثلاثاء_الأربعاء_الخميس_الجمعة_السبت'.split('_'),
@@ -224,7 +224,7 @@
 
     //! moment.js locale configuration
 
-    moment.defineLocale('kw', {
+    moment.defineLocale('ar-kw', {
         months: 'يناير_فبراير_مارس_أبريل_ماي_يونيو_يوليوز_غشت_شتنبر_أكتوبر_نونبر_دجنبر'.split(
             '_'
         ),
@@ -292,14 +292,14 @@
             return n === 0
                 ? 0
                 : n === 1
-                  ? 1
-                  : n === 2
-                    ? 2
-                    : n % 100 >= 3 && n % 100 <= 10
-                      ? 3
-                      : n % 100 >= 11
-                        ? 4
-                        : 5;
+                    ? 1
+                    : n === 2
+                        ? 2
+                        : n % 100 >= 3 && n % 100 <= 10
+                            ? 3
+                            : n % 100 >= 11
+                                ? 4
+                                : 5;
         },
         plurals$1 = {
             s: [
@@ -376,7 +376,7 @@
             'ديسمبر',
         ];
 
-    moment.defineLocale('ly', {
+    moment.defineLocale('ar-ly', {
         months: months$1,
         monthsShort: months$1,
         weekdays: 'الأحد_الإثنين_الثلاثاء_الأربعاء_الخميس_الجمعة_السبت'.split('_'),
@@ -521,7 +521,7 @@
             '٠': '0',
         };
 
-    moment.defineLocale('ps', {
+    moment.defineLocale('ar-ps', {
         months: 'كانون الثاني_شباط_آذار_نيسان_أيّار_حزيران_تمّوز_آب_أيلول_تشري الأوّل_تشرين الثاني_كانون الأوّل'.split(
             '_'
         ),
@@ -630,7 +630,7 @@
             '٠': '0',
         };
 
-    moment.defineLocale('sa', {
+    moment.defineLocale('ar-sa', {
         months: 'يناير_فبراير_مارس_أبريل_مايو_يونيو_يوليو_أغسطس_سبتمبر_أكتوبر_نوفمبر_ديسمبر'.split(
             '_'
         ),
@@ -707,7 +707,7 @@
 
     //! moment.js locale configuration
 
-    moment.defineLocale('tn', {
+    moment.defineLocale('ar-tn', {
         months: 'جانفي_فيفري_مارس_أفريل_ماي_جوان_جويلية_أوت_سبتمبر_أكتوبر_نوفمبر_ديسمبر'.split(
             '_'
         ),
@@ -787,14 +787,14 @@
             return n === 0
                 ? 0
                 : n === 1
-                  ? 1
-                  : n === 2
-                    ? 2
-                    : n % 100 >= 3 && n % 100 <= 10
-                      ? 3
-                      : n % 100 >= 11
-                        ? 4
-                        : 5;
+                    ? 1
+                    : n === 2
+                        ? 2
+                        : n % 100 >= 3 && n % 100 <= 10
+                            ? 3
+                            : n % 100 >= 11
+                                ? 4
+                                : 5;
         },
         plurals$2 = {
             s: [
@@ -1047,8 +1047,8 @@
         return num % 10 === 1 && num % 100 !== 11
             ? forms[0]
             : num % 10 >= 2 && num % 10 <= 4 && (num % 100 < 10 || num % 100 >= 20)
-              ? forms[1]
-              : forms[2];
+                ? forms[1]
+                : forms[2];
     }
     function relativeTimeWithPlural(number, withoutSuffix, key) {
         var format = {
@@ -1161,8 +1161,8 @@
                 case 'w':
                 case 'W':
                     return (number % 10 === 2 || number % 10 === 3) &&
-                        number % 100 !== 12 &&
-                        number % 100 !== 13
+                    number % 100 !== 12 &&
+                    number % 100 !== 13
                         ? number + '-і'
                         : number + '-ы';
                 case 'D':
@@ -1462,7 +1462,7 @@
             '০': '0',
         };
 
-    moment.defineLocale('bd', {
+    moment.defineLocale('bn', {
         months: 'জানুয়ারি_ফেব্রুয়ারি_মার্চ_এপ্রিল_মে_জুন_জুলাই_আগস্ট_সেপ্টেম্বর_অক্টোবর_নভেম্বর_ডিসেম্বর'.split(
             '_'
         ),
@@ -1578,7 +1578,7 @@
             '༠': '0',
         };
 
-    moment.defineLocale('cn', {
+    moment.defineLocale('bo', {
         months: 'ཟླ་བ་དང་པོ_ཟླ་བ་གཉིས་པ_ཟླ་བ་གསུམ་པ_ཟླ་བ་བཞི་པ_ཟླ་བ་ལྔ་པ_ཟླ་བ་དྲུག་པ_ཟླ་བ་བདུན་པ_ཟླ་བ་བརྒྱད་པ_ཟླ་བ་དགུ་པ_ཟླ་བ་བཅུ་པ_ཟླ་བ་བཅུ་གཅིག་པ_ཟླ་བ་བཅུ་གཉིས་པ'.split(
             '_'
         ),
@@ -1845,8 +1845,8 @@
                 return withoutSuffix
                     ? 'jedna minuta'
                     : isFuture
-                      ? 'jednu minutu'
-                      : 'jedne minute';
+                        ? 'jednu minutu'
+                        : 'jedne minute';
         }
     }
 
@@ -1910,7 +1910,7 @@
         }
     }
 
-    moment.defineLocale('ba', {
+    moment.defineLocale('bs', {
         months: 'januar_februar_mart_april_maj_juni_juli_august_septembar_oktobar_novembar_decembar'.split(
             '_'
         ),
@@ -2072,12 +2072,12 @@
                 number === 1
                     ? 'r'
                     : number === 2
-                      ? 'n'
-                      : number === 3
-                        ? 'r'
-                        : number === 4
-                          ? 't'
-                          : 'è';
+                        ? 'n'
+                        : number === 3
+                            ? 'r'
+                            : number === 4
+                                ? 't'
+                                : 'è';
             if (period === 'w' || period === 'W') {
                 output = 'a';
             }
@@ -2178,7 +2178,7 @@
         }
     }
 
-    moment.defineLocale('cz', {
+    moment.defineLocale('cs', {
         months: months$3,
         monthsShort: monthsShort,
         monthsRegex: monthsRegex$1,
@@ -2301,8 +2301,8 @@
                 var affix = /сехет$/i.exec(output)
                     ? 'рен'
                     : /ҫул$/i.exec(output)
-                      ? 'тан'
-                      : 'ран';
+                        ? 'тан'
+                        : 'ран';
                 return output + affix;
             },
             past: '%s каялла',
@@ -2329,7 +2329,7 @@
 
     //! moment.js locale configuration
 
-    moment.defineLocale('gb', {
+    moment.defineLocale('cy', {
         months: 'Ionawr_Chwefror_Mawrth_Ebrill_Mai_Mehefin_Gorffennaf_Awst_Medi_Hydref_Tachwedd_Rhagfyr'.split(
             '_'
         ),
@@ -2423,7 +2423,7 @@
 
     //! moment.js locale configuration
 
-    moment.defineLocale('dk', {
+    moment.defineLocale('da', {
         months: 'januar_februar_marts_april_maj_juni_juli_august_september_oktober_november_december'.split(
             '_'
         ),
@@ -2488,7 +2488,7 @@
         return withoutSuffix ? format[key][0] : format[key][1];
     }
 
-    moment.defineLocale('at', {
+    moment.defineLocale('de-at', {
         months: 'Jänner_Februar_März_April_Mai_Juni_Juli_August_September_Oktober_November_Dezember'.split(
             '_'
         ),
@@ -2561,7 +2561,7 @@
         return withoutSuffix ? format[key][0] : format[key][1];
     }
 
-    moment.defineLocale('ch', {
+    moment.defineLocale('de-ch', {
         months: 'Januar_Februar_März_April_Mai_Juni_Juli_August_September_Oktober_November_Dezember'.split(
             '_'
         ),
@@ -2716,7 +2716,7 @@
             'ހޮނިހިރު',
         ];
 
-    moment.defineLocale('mv', {
+    moment.defineLocale('dv', {
         months: months$4,
         monthsShort: months$4,
         weekdays: weekdays,
@@ -2786,7 +2786,7 @@
         );
     }
 
-    moment.defineLocale('gr', {
+    moment.defineLocale('el', {
         monthsNominativeEl:
             'Ιανουάριος_Φεβρουάριος_Μάρτιος_Απρίλιος_Μάιος_Ιούνιος_Ιούλιος_Αύγουστος_Σεπτέμβριος_Οκτώβριος_Νοέμβριος_Δεκέμβριος'.split(
                 '_'
@@ -2882,7 +2882,7 @@
 
     //! moment.js locale configuration
 
-    moment.defineLocale('au', {
+    moment.defineLocale('en-au', {
         months: 'January_February_March_April_May_June_July_August_September_October_November_December'.split(
             '_'
         ),
@@ -2931,12 +2931,12 @@
                     ~~((number % 100) / 10) === 1
                         ? 'th'
                         : b === 1
-                          ? 'st'
-                          : b === 2
-                            ? 'nd'
-                            : b === 3
-                              ? 'rd'
-                              : 'th';
+                            ? 'st'
+                            : b === 2
+                                ? 'nd'
+                                : b === 3
+                                    ? 'rd'
+                                    : 'th';
             return number + output;
         },
         week: {
@@ -2996,12 +2996,12 @@
                     ~~((number % 100) / 10) === 1
                         ? 'th'
                         : b === 1
-                          ? 'st'
-                          : b === 2
-                            ? 'nd'
-                            : b === 3
-                              ? 'rd'
-                              : 'th';
+                            ? 'st'
+                            : b === 2
+                                ? 'nd'
+                                : b === 3
+                                    ? 'rd'
+                                    : 'th';
             return number + output;
         },
     });
@@ -3057,12 +3057,12 @@
                     ~~((number % 100) / 10) === 1
                         ? 'th'
                         : b === 1
-                          ? 'st'
-                          : b === 2
-                            ? 'nd'
-                            : b === 3
-                              ? 'rd'
-                              : 'th';
+                            ? 'st'
+                            : b === 2
+                                ? 'nd'
+                                : b === 3
+                                    ? 'rd'
+                                    : 'th';
             return number + output;
         },
         week: {
@@ -3073,7 +3073,7 @@
 
     //! moment.js locale configuration
 
-    moment.defineLocale('ie', {
+    moment.defineLocale('en-ie', {
         months: 'January_February_March_April_May_June_July_August_September_October_November_December'.split(
             '_'
         ),
@@ -3122,12 +3122,12 @@
                     ~~((number % 100) / 10) === 1
                         ? 'th'
                         : b === 1
-                          ? 'st'
-                          : b === 2
-                            ? 'nd'
-                            : b === 3
-                              ? 'rd'
-                              : 'th';
+                            ? 'st'
+                            : b === 2
+                                ? 'nd'
+                                : b === 3
+                                    ? 'rd'
+                                    : 'th';
             return number + output;
         },
         week: {
@@ -3138,7 +3138,7 @@
 
     //! moment.js locale configuration
 
-    moment.defineLocale('il', {
+    moment.defineLocale('en-il', {
         months: 'January_February_March_April_May_June_July_August_September_October_November_December'.split(
             '_'
         ),
@@ -3187,19 +3187,19 @@
                     ~~((number % 100) / 10) === 1
                         ? 'th'
                         : b === 1
-                          ? 'st'
-                          : b === 2
-                            ? 'nd'
-                            : b === 3
-                              ? 'rd'
-                              : 'th';
+                            ? 'st'
+                            : b === 2
+                                ? 'nd'
+                                : b === 3
+                                    ? 'rd'
+                                    : 'th';
             return number + output;
         },
     });
 
     //! moment.js locale configuration
 
-    moment.defineLocale('in', {
+    moment.defineLocale('en-in', {
         months: 'January_February_March_April_May_June_July_August_September_October_November_December'.split(
             '_'
         ),
@@ -3248,12 +3248,12 @@
                     ~~((number % 100) / 10) === 1
                         ? 'th'
                         : b === 1
-                          ? 'st'
-                          : b === 2
-                            ? 'nd'
-                            : b === 3
-                              ? 'rd'
-                              : 'th';
+                            ? 'st'
+                            : b === 2
+                                ? 'nd'
+                                : b === 3
+                                    ? 'rd'
+                                    : 'th';
             return number + output;
         },
         week: {
@@ -3264,7 +3264,7 @@
 
     //! moment.js locale configuration
 
-    moment.defineLocale('nz', {
+    moment.defineLocale('en-nz', {
         months: 'January_February_March_April_May_June_July_August_September_October_November_December'.split(
             '_'
         ),
@@ -3313,12 +3313,12 @@
                     ~~((number % 100) / 10) === 1
                         ? 'th'
                         : b === 1
-                          ? 'st'
-                          : b === 2
-                            ? 'nd'
-                            : b === 3
-                              ? 'rd'
-                              : 'th';
+                            ? 'st'
+                            : b === 2
+                                ? 'nd'
+                                : b === 3
+                                    ? 'rd'
+                                    : 'th';
             return number + output;
         },
         week: {
@@ -3329,7 +3329,7 @@
 
     //! moment.js locale configuration
 
-    moment.defineLocale('sg', {
+    moment.defineLocale('en-sg', {
         months: 'January_February_March_April_May_June_July_August_September_October_November_December'.split(
             '_'
         ),
@@ -3378,12 +3378,12 @@
                     ~~((number % 100) / 10) === 1
                         ? 'th'
                         : b === 1
-                          ? 'st'
-                          : b === 2
-                            ? 'nd'
-                            : b === 3
-                              ? 'rd'
-                              : 'th';
+                            ? 'st'
+                            : b === 2
+                                ? 'nd'
+                                : b === 3
+                                    ? 'rd'
+                                    : 'th';
             return number + output;
         },
         week: {
@@ -3478,7 +3478,7 @@
         monthsRegex$2 =
             /^(enero|febrero|marzo|abril|mayo|junio|julio|agosto|septiembre|octubre|noviembre|diciembre|ene\.?|feb\.?|mar\.?|abr\.?|may\.?|jun\.?|jul\.?|ago\.?|sep\.?|oct\.?|nov\.?|dic\.?)/i;
 
-    moment.defineLocale('do', {
+    moment.defineLocale('es-do', {
         months: 'enero_febrero_marzo_abril_mayo_junio_julio_agosto_septiembre_octubre_noviembre_diciembre'.split(
             '_'
         ),
@@ -3584,7 +3584,7 @@
         monthsRegex$3 =
             /^(enero|febrero|marzo|abril|mayo|junio|julio|agosto|septiembre|octubre|noviembre|diciembre|ene\.?|feb\.?|mar\.?|abr\.?|may\.?|jun\.?|jul\.?|ago\.?|sep\.?|oct\.?|nov\.?|dic\.?)/i;
 
-    moment.defineLocale('mx', {
+    moment.defineLocale('es-mx', {
         months: 'enero_febrero_marzo_abril_mayo_junio_julio_agosto_septiembre_octubre_noviembre_diciembre'.split(
             '_'
         ),
@@ -3902,7 +3902,7 @@
         return isFuture ? format[key][0] : format[key][1];
     }
 
-    moment.defineLocale('ee', {
+    moment.defineLocale('et', {
         months: 'jaanuar_veebruar_märts_aprill_mai_juuni_juuli_august_september_oktoober_november_detsember'.split(
             '_'
         ),
@@ -4043,7 +4043,7 @@
             '۰': '0',
         };
 
-    moment.defineLocale('ir', {
+    moment.defineLocale('fa', {
         months: 'ژانویه_فوریه_مارس_آوریل_مه_ژوئن_ژوئیه_اوت_سپتامبر_اکتبر_نوامبر_دسامبر'.split(
             '_'
         ),
@@ -4249,7 +4249,7 @@
 
     //! moment.js locale configuration
 
-    moment.defineLocale('tl-ph', {
+    moment.defineLocale('fil', {
         months: 'Enero_Pebrero_Marso_Abril_Mayo_Hunyo_Hulyo_Agosto_Setyembre_Oktubre_Nobyembre_Disyembre'.split(
             '_'
         ),
@@ -5811,7 +5811,7 @@
 
     //! moment.js locale configuration
 
-    moment.defineLocale('am', {
+    moment.defineLocale('hy-am', {
         months: {
             format: 'հունվարի_փետրվարի_մարտի_ապրիլի_մայիսի_հունիսի_հուլիսի_օգոստոսի_սեպտեմբերի_հոկտեմբերի_նոյեմբերի_դեկտեմբերի'.split(
                 '_'
@@ -6227,8 +6227,8 @@
                             (this.hours() > 1
                                 ? 'lle '
                                 : this.hours() === 0
-                                  ? ' '
-                                  : "ll'") +
+                                    ? ' '
+                                    : "ll'") +
                             ']LT'
                         );
                     default:
@@ -6237,8 +6237,8 @@
                             (this.hours() > 1
                                 ? 'lle '
                                 : this.hours() === 0
-                                  ? ' '
-                                  : "ll'") +
+                                    ? ' '
+                                    : "ll'") +
                             ']LT'
                         );
                 }
@@ -6273,7 +6273,7 @@
 
     //! moment.js locale configuration
 
-    moment.defineLocale('jp', {
+    moment.defineLocale('ja', {
         eras: [
             {
                 since: '2019-05-01',
@@ -6490,7 +6490,7 @@
 
     //! moment.js locale configuration
 
-    moment.defineLocale('ge', {
+    moment.defineLocale('ka', {
         months: 'იანვარი_თებერვალი_მარტი_აპრილი_მაისი_ივნისი_ივლისი_აგვისტო_სექტემბერი_ოქტომბერი_ნოემბერი_დეკემბერი'.split(
             '_'
         ),
@@ -6602,7 +6602,7 @@
         100: '-ші',
     };
 
-    moment.defineLocale('kz', {
+    moment.defineLocale('kk', {
         months: 'қаңтар_ақпан_наурыз_сәуір_мамыр_маусым_шілде_тамыз_қыркүйек_қазан_қараша_желтоқсан'.split(
             '_'
         ),
@@ -6683,7 +6683,7 @@
             '០': '0',
         };
 
-    moment.defineLocale('kh', {
+    moment.defineLocale('km', {
         months: 'មករា_កុម្ភៈ_មីនា_មេសា_ឧសភា_មិថុនា_កក្កដា_សីហា_កញ្ញា_តុលា_វិច្ឆិកា_ធ្នូ'.split(
             '_'
         ),
@@ -6879,7 +6879,7 @@
 
     //! moment.js locale configuration
 
-    moment.defineLocale('kr', {
+    moment.defineLocale('ko', {
         months: '1월_2월_3월_4월_5월_6월_7월_8월_9월_10월_11월_12월'.split('_'),
         monthsShort: '1월_2월_3월_4월_5월_6월_7월_8월_9월_10월_11월_12월'.split(
             '_'
@@ -7100,7 +7100,7 @@
             'كانونی یەکەم',
         ];
 
-    moment.defineLocale('iq', {
+    moment.defineLocale('ku', {
         months: months$7,
         monthsShort: months$7,
         weekdays:
@@ -7199,7 +7199,7 @@
         100: '-чү',
     };
 
-    moment.defineLocale('kg', {
+    moment.defineLocale('ky', {
         months: 'январь_февраль_март_апрель_май_июнь_июль_август_сентябрь_октябрь_ноябрь_декабрь'.split(
             '_'
         ),
@@ -7323,7 +7323,7 @@
         }
     }
 
-    moment.defineLocale('lu', {
+    moment.defineLocale('lb', {
         months: 'Januar_Februar_Mäerz_Abrëll_Mee_Juni_Juli_August_September_Oktober_November_Dezember'.split(
             '_'
         ),
@@ -7390,7 +7390,7 @@
 
     //! moment.js locale configuration
 
-    moment.defineLocale('la', {
+    moment.defineLocale('lo', {
         months: 'ມັງກອນ_ກຸມພາ_ມີນາ_ເມສາ_ພຶດສະພາ_ມິຖຸນາ_ກໍລະກົດ_ສິງຫາ_ກັນຍາ_ຕຸລາ_ພະຈິກ_ທັນວາ'.split(
             '_'
         ),
@@ -7477,8 +7477,8 @@
         return withoutSuffix
             ? forms(key)[0]
             : isFuture
-              ? forms(key)[1]
-              : forms(key)[2];
+                ? forms(key)[1]
+                : forms(key)[2];
     }
     function special(number) {
         return number % 10 === 0 || (number > 10 && number < 20);
@@ -7681,8 +7681,8 @@
             return number === 1
                 ? wordKey[0]
                 : number >= 2 && number <= 4
-                  ? wordKey[1]
-                  : wordKey[2];
+                    ? wordKey[1]
+                    : wordKey[2];
         },
         translate: function (number, withoutSuffix, key) {
             var wordKey = translator.words[key];
@@ -8515,7 +8515,7 @@
             '၀': '0',
         };
 
-    moment.defineLocale('mm', {
+    moment.defineLocale('my', {
         months: 'ဇန်နဝါရီ_ဖေဖော်ဝါရီ_မတ်_ဧပြီ_မေ_ဇွန်_ဇူလိုင်_သြဂုတ်_စက်တင်ဘာ_အောက်တိုဘာ_နိုဝင်ဘာ_ဒီဇင်ဘာ'.split(
             '_'
         ),
@@ -8576,7 +8576,7 @@
 
     //! moment.js locale configuration
 
-    moment.defineLocale('no', {
+    moment.defineLocale('nb', {
         months: 'januar_februar_mars_april_mai_juni_juli_august_september_oktober_november_desember'.split(
             '_'
         ),
@@ -8656,7 +8656,7 @@
             '०': '0',
         };
 
-    moment.defineLocale('np', {
+    moment.defineLocale('ne', {
         months: 'जनवरी_फेब्रुवरी_मार्च_अप्रिल_मई_जुन_जुलाई_अगष्ट_सेप्टेम्बर_अक्टोबर_नोभेम्बर_डिसेम्बर'.split(
             '_'
         ),
@@ -9065,12 +9065,12 @@
                 number === 1
                     ? 'r'
                     : number === 2
-                      ? 'n'
-                      : number === 3
-                        ? 'r'
-                        : number === 4
-                          ? 't'
-                          : 'è';
+                        ? 'n'
+                        : number === 3
+                            ? 'r'
+                            : number === 4
+                                ? 't'
+                                : 'è';
             if (period === 'w' || period === 'W') {
                 output = 'a';
             }
@@ -9531,8 +9531,8 @@
         return num % 10 === 1 && num % 100 !== 11
             ? forms[0]
             : num % 10 >= 2 && num % 10 <= 4 && (num % 100 < 10 || num % 100 >= 20)
-              ? forms[1]
-              : forms[2];
+                ? forms[1]
+                : forms[2];
     }
     function relativeTimeWithPlural$3(number, withoutSuffix, key) {
         var format = {
@@ -9750,7 +9750,7 @@
         ],
         days = ['آچر', 'سومر', 'اڱارو', 'اربع', 'خميس', 'جمع', 'ڇنڇر'];
 
-    moment.defineLocale('pk', {
+    moment.defineLocale('sd', {
         months: months$8,
         monthsShort: months$8,
         weekdays: days,
@@ -10241,7 +10241,7 @@
 
     //! moment.js locale configuration
 
-    moment.defineLocale('al', {
+    moment.defineLocale('sq', {
         months: 'Janar_Shkurt_Mars_Prill_Maj_Qershor_Korrik_Gusht_Shtator_Tetor_Nëntor_Dhjetor'.split(
             '_'
         ),
@@ -10469,7 +10469,7 @@
         },
     };
 
-    moment.defineLocale('rs', {
+    moment.defineLocale('sr', {
         months: 'januar_februar_mart_april_maj_jun_jul_avgust_septembar_oktobar_novembar_decembar'.split(
             '_'
         ),
@@ -10549,7 +10549,7 @@
 
     //! moment.js locale configuration
 
-    moment.defineLocale('sz', {
+    moment.defineLocale('ss', {
         months: "Bhimbidvwane_Indlovana_Indlov'lenkhulu_Mabasa_Inkhwekhweti_Inhlaba_Kholwane_Ingci_Inyoni_Imphala_Lweti_Ingongoni".split(
             '_'
         ),
@@ -10679,12 +10679,12 @@
                     ~~((number % 100) / 10) === 1
                         ? ':e'
                         : b === 1
-                          ? ':a'
-                          : b === 2
                             ? ':a'
-                            : b === 3
-                              ? ':e'
-                              : ':e';
+                            : b === 2
+                                ? ':a'
+                                : b === 3
+                                    ? ':e'
+                                    : ':e';
             return number + output;
         },
         week: {
@@ -11007,12 +11007,12 @@
                     ~~((number % 100) / 10) === 1
                         ? 'th'
                         : b === 1
-                          ? 'st'
-                          : b === 2
-                            ? 'nd'
-                            : b === 3
-                              ? 'rd'
-                              : 'th';
+                            ? 'st'
+                            : b === 2
+                                ? 'nd'
+                                : b === 3
+                                    ? 'rd'
+                                    : 'th';
             return number + output;
         },
         week: {
@@ -11048,7 +11048,7 @@
         100: '-ум',
     };
 
-    moment.defineLocale('tj', {
+    moment.defineLocale('tg', {
         months: {
             format: 'январи_феврали_марти_апрели_майи_июни_июли_августи_сентябри_октябри_ноябри_декабри'.split(
                 '_'
@@ -11220,7 +11220,7 @@
         90: "'ynjy",
     };
 
-    moment.defineLocale('tm', {
+    moment.defineLocale('tk', {
         months: 'Ýanwar_Fewral_Mart_Aprel_Maý_Iýun_Iýul_Awgust_Sentýabr_Oktýabr_Noýabr_Dekabr'.split(
             '_'
         ),
@@ -11287,7 +11287,7 @@
 
     //! moment.js locale configuration
 
-    moment.defineLocale('ph', {
+    moment.defineLocale('tl-ph', {
         months: 'Enero_Pebrero_Marso_Abril_Mayo_Hunyo_Hulyo_Agosto_Setyembre_Oktubre_Nobyembre_Disyembre'.split(
             '_'
         ),
@@ -11349,10 +11349,10 @@
             output.indexOf('jaj') !== -1
                 ? time.slice(0, -3) + 'leS'
                 : output.indexOf('jar') !== -1
-                  ? time.slice(0, -3) + 'waQ'
-                  : output.indexOf('DIS') !== -1
-                    ? time.slice(0, -3) + 'nem'
-                    : time + ' pIq';
+                    ? time.slice(0, -3) + 'waQ'
+                    : output.indexOf('DIS') !== -1
+                        ? time.slice(0, -3) + 'nem'
+                        : time + ' pIq';
         return time;
     }
 
@@ -11362,10 +11362,10 @@
             output.indexOf('jaj') !== -1
                 ? time.slice(0, -3) + 'Hu’'
                 : output.indexOf('jar') !== -1
-                  ? time.slice(0, -3) + 'wen'
-                  : output.indexOf('DIS') !== -1
-                    ? time.slice(0, -3) + 'ben'
-                    : time + ' ret';
+                    ? time.slice(0, -3) + 'wen'
+                    : output.indexOf('DIS') !== -1
+                        ? time.slice(0, -3) + 'ben'
+                        : time + ' ret';
         return time;
     }
 
@@ -11643,8 +11643,8 @@
         return isFuture
             ? format[key][0]
             : withoutSuffix
-              ? format[key][0]
-              : format[key][1];
+                ? format[key][0]
+                : format[key][1];
     }
 
     //! moment.js locale configuration
@@ -11700,7 +11700,7 @@
 
     //! moment.js locale configuration
 
-    moment.defineLocale('ma', {
+    moment.defineLocale('tzm', {
         months: 'ⵉⵏⵏⴰⵢⵔ_ⴱⵕⴰⵢⵕ_ⵎⴰⵕⵚ_ⵉⴱⵔⵉⵔ_ⵎⴰⵢⵢⵓ_ⵢⵓⵏⵢⵓ_ⵢⵓⵍⵢⵓⵣ_ⵖⵓⵛⵜ_ⵛⵓⵜⴰⵏⴱⵉⵔ_ⴽⵟⵓⴱⵕ_ⵏⵓⵡⴰⵏⴱⵉⵔ_ⴷⵓⵊⵏⴱⵉⵔ'.split(
             '_'
         ),
@@ -11864,8 +11864,8 @@
         return num % 10 === 1 && num % 100 !== 11
             ? forms[0]
             : num % 10 >= 2 && num % 10 <= 4 && (num % 100 < 10 || num % 100 >= 20)
-              ? forms[1]
-              : forms[2];
+                ? forms[1]
+                : forms[2];
     }
     function relativeTimeWithPlural$4(number, withoutSuffix, key) {
         var format = {
@@ -11913,8 +11913,8 @@
         nounCase = /(\[[ВвУу]\]) ?dddd/.test(format)
             ? 'accusative'
             : /\[?(?:минулої|наступної)? ?\] ?dddd/.test(format)
-              ? 'genitive'
-              : 'nominative';
+                ? 'genitive'
+                : 'nominative';
         return weekdays[nounCase][m.day()];
     }
     function processHoursFunction(str) {
@@ -11923,7 +11923,7 @@
         };
     }
 
-    moment.defineLocale('ua', {
+    moment.defineLocale('uk', {
         months: {
             format: 'січня_лютого_березня_квітня_травня_червня_липня_серпня_вересня_жовтня_листопада_грудня'.split(
                 '_'
@@ -12275,7 +12275,7 @@
 
     //! moment.js locale configuration
 
-    moment.defineLocale('vn', {
+    moment.defineLocale('x-pseudo', {
         months: 'J~áñúá~rý_F~ébrú~árý_~Márc~h_Áp~ríl_~Máý_~Júñé~_Júl~ý_Áú~gúst~_Sép~témb~ér_Ó~ctób~ér_Ñ~óvém~bér_~Décé~mbér'.split(
             '_'
         ),
@@ -12329,12 +12329,12 @@
                     ~~((number % 100) / 10) === 1
                         ? 'th'
                         : b === 1
-                          ? 'st'
-                          : b === 2
-                            ? 'nd'
-                            : b === 3
-                              ? 'rd'
-                              : 'th';
+                            ? 'st'
+                            : b === 2
+                                ? 'nd'
+                                : b === 3
+                                    ? 'rd'
+                                    : 'th';
             return number + output;
         },
         week: {
@@ -12345,7 +12345,7 @@
 
     //! moment.js locale configuration
 
-    moment.defineLocale('ng', {
+    moment.defineLocale('yo', {
         months: 'Sẹ́rẹ́_Èrèlè_Ẹrẹ̀nà_Ìgbé_Èbibi_Òkùdu_Agẹmo_Ògún_Owewe_Ọ̀wàrà_Bélú_Ọ̀pẹ̀̀'.split(
             '_'
         ),
@@ -12510,7 +12510,7 @@
 
     //! moment.js locale configuration
 
-    moment.defineLocale('hk', {
+    moment.defineLocale('zh-hk', {
         months: '一月_二月_三月_四月_五月_六月_七月_八月_九月_十月_十一月_十二月'.split(
             '_'
         ),
@@ -12605,7 +12605,7 @@
 
     //! moment.js locale configuration
 
-    moment.defineLocale('mo', {
+    moment.defineLocale('zh-mo', {
         months: '一月_二月_三月_四月_五月_六月_七月_八月_九月_十月_十一月_十二月'.split(
             '_'
         ),
@@ -12700,7 +12700,7 @@
 
     //! moment.js locale configuration
 
-    moment.defineLocale('tw', {
+    moment.defineLocale('zh-tw', {
         months: '一月_二月_三月_四月_五月_六月_七月_八月_九月_十月_十一月_十二月'.split(
             '_'
         ),
@@ -12793,7 +12793,7 @@
         },
     });
 
-    moment.locale('us');
+    moment.locale('en');
 
     return moment;
 

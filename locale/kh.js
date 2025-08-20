@@ -1,5 +1,5 @@
 //! moment.js locale configuration
-//! locale : Cambodian [km]
+//! locale : Cambodian [kh]
 //! author : Kruy Vanna : https://github.com/kruyvanna
 
 ;(function (global, factory) {
@@ -36,7 +36,7 @@
             '០': '0',
         };
 
-    var km = moment.defineLocale('km', {
+    var kh = moment.defineLocale('kh', {
         months: 'មករា_កុម្ភៈ_មីនា_មេសា_ឧសភា_មិថុនា_កក្កដា_សីហា_កញ្ញា_តុលា_វិច្ឆិកា_ធ្នូ'.split(
             '_'
         ),
@@ -109,6 +109,6 @@
         },
     });
 
-    return km;
+    return kh;
 
 })));

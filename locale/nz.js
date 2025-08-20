@@ -1,5 +1,5 @@
 //! moment.js locale configuration
-//! locale : English (New Zealand) [en-nz]
+//! locale : English (New Zealand) [nz]
 //! author : Luke McGregor : https://github.com/lukemcgregor
 
 ;(function (global, factory) {
@@ -11,7 +11,7 @@
 
     //! moment.js locale configuration
 
-    var enNz = moment.defineLocale('en-nz', {
+    var nz = moment.defineLocale('nz', {
         months: 'January_February_March_April_May_June_July_August_September_October_November_December'.split(
             '_'
         ),
@@ -74,6 +74,6 @@
         },
     });
 
-    return enNz;
+    return nz;
 
 })));

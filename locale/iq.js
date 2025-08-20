@@ -1,5 +1,5 @@
 //! moment.js locale configuration
-//! locale : Kurdish [ku]
+//! locale : Kurdish [iq]
 //! author : Shahram Mebashar : https://github.com/ShahramMebashar
 
 ;(function (global, factory) {
@@ -50,7 +50,7 @@
             'كانونی یەکەم',
         ];
 
-    var ku = moment.defineLocale('ku', {
+    var iq = moment.defineLocale('iq', {
         months: months,
         monthsShort: months,
         weekdays:
@@ -124,6 +124,6 @@
         },
     });
 
-    return ku;
+    return iq;
 
 })));

@@ -1,5 +1,5 @@
 //! moment.js locale configuration
-//! locale : Arabic (Palestine) [ar-ps]
+//! locale : Arabic (Palestine) [ps]
 //! author : Majd Al-Shihabi : https://github.com/majdal
 
 ;(function (global, factory) {
@@ -36,7 +36,7 @@
             '٠': '0',
         };
 
-    var arPs = moment.defineLocale('ar-ps', {
+    var ps = moment.defineLocale('ps', {
         months: 'كانون الثاني_شباط_آذار_نيسان_أيّار_حزيران_تمّوز_آب_أيلول_تشري الأوّل_تشرين الثاني_كانون الأوّل'.split(
             '_'
         ),
@@ -118,6 +118,6 @@
         },
     });
 
-    return arPs;
+    return ps;
 
 })));

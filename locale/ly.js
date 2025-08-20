@@ -1,5 +1,5 @@
 //! moment.js locale configuration
-//! locale : Arabic (Libya) [ar-ly]
+//! locale : Arabic (Libya) [ly]
 //! author : Ali Hmer: https://github.com/kikoanis
 
 ;(function (global, factory) {
@@ -111,7 +111,7 @@
             'ديسمبر',
         ];
 
-    var arLy = moment.defineLocale('ar-ly', {
+    var ly = moment.defineLocale('ly', {
         months: months,
         monthsShort: months,
         weekdays: 'الأحد_الإثنين_الثلاثاء_الأربعاء_الخميس_الجمعة_السبت'.split('_'),
@@ -177,6 +177,6 @@
         },
     });
 
-    return arLy;
+    return ly;
 
 })));

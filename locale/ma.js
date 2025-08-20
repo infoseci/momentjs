@@ -1,5 +1,5 @@
 //! moment.js locale configuration
-//! locale : Central Atlas Tamazight [tzm]
+//! locale : Central Atlas Tamazight [ma]
 //! author : Abdel Said : https://github.com/abdelsaid
 
 ;(function (global, factory) {
@@ -11,7 +11,7 @@
 
     //! moment.js locale configuration
 
-    var tzm = moment.defineLocale('tzm', {
+    var ma = moment.defineLocale('ma', {
         months: 'ⵉⵏⵏⴰⵢⵔ_ⴱⵕⴰⵢⵕ_ⵎⴰⵕⵚ_ⵉⴱⵔⵉⵔ_ⵎⴰⵢⵢⵓ_ⵢⵓⵏⵢⵓ_ⵢⵓⵍⵢⵓⵣ_ⵖⵓⵛⵜ_ⵛⵓⵜⴰⵏⴱⵉⵔ_ⴽⵟⵓⴱⵕ_ⵏⵓⵡⴰⵏⴱⵉⵔ_ⴷⵓⵊⵏⴱⵉⵔ'.split(
             '_'
         ),
@@ -60,6 +60,6 @@
         },
     });
 
-    return tzm;
+    return ma;
 
 })));

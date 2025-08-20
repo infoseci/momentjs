@@ -1,5 +1,5 @@
 //! moment.js locale configuration
-//! locale : Turkmen [tk]
+//! locale : Turkmen [tm]
 //! author : Atamyrat Abdyrahmanov : https://github.com/atamyratabdy
 
 ;(function (global, factory) {
@@ -32,7 +32,7 @@
         90: "'ynjy",
     };
 
-    var tk = moment.defineLocale('tk', {
+    var tm = moment.defineLocale('tm', {
         months: 'Ýanwar_Fewral_Mart_Aprel_Maý_Iýun_Iýul_Awgust_Sentýabr_Oktýabr_Noýabr_Dekabr'.split(
             '_'
         ),
@@ -97,6 +97,6 @@
         },
     });
 
-    return tk;
+    return tm;
 
 })));
