@@ -12,8 +12,8 @@ A JavaScript date library for parsing, validating, manipulating, and formatting 
 
 ### This is a forked version of Moment.js
 This fork is intended to be a drop-in replacement for Moment.js, with the following changes:
-- Updated dependencies to remove vulnerabilities;
-- Update locale file names to use ISO 2 country codes (e.g. `ua` instead of `uk`);
+- Updated dependencies to remove vulnerabilities
+- Update locale file names to use ISO 2 country codes (e.g. `ua` instead of `uk`)
 
 ## Project Status
 
