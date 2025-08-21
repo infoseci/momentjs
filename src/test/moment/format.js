@@ -817,7 +817,7 @@ test('quarter ordinal formats', function (assert) {
 //         'au en-ca en-gb en-ie en-nz eo es et eu fa fi fo fr-ca fr-ch fr fy ' +
 //         'gd gl he hi hr hu am id is it ja jv ka kk km ko lb lo lt lv me mk ml ' +
 //         'mr ms-my ms my nb ne nl nn pl pt-br pt ro ru se si sk sl al sr-cyrl ' +
-//         'sr sv sw ta te th tl-ph tlh tr tzl tzm-latn tzm uk uz vi zh-cn zh-tw';
+//         'sr sv sw ta te th tl-ph tlh tr tzl tzm-latn tzm ua uz vi zh-cn zh-tw';
 
 //     each(locales.split(' '), function (locale) {
 //         var data = moment().locale(locale).localeData()._longDateFormat;
