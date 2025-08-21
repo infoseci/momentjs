@@ -4,7 +4,7 @@ name: Build and Minify JavaScript
 
 on:
   pull_request:
-    branches: [ "main"] # Trigger on pushes to the main branch
+    branches: [ "master"] # Trigger on pushes to the main branch
 
 jobs:
   build:
