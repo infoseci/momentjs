@@ -38,12 +38,4 @@ jobs:
 
       - uses: stefanzweifel/git-auto-commit-action@v6
         with:
-          commit_message: Apply php-cs-fixer changes
-
-      #- name: Commit minified files
-      #  run: |
-      #    git config --global user.name "github-actions[bot]"
-      #    git config --global user.email "github-actions[bot]@users.noreply.github.com"
-      #    git add min/*.js
-      #    git commit -m "chore: auto-minify JS" || echo "No changes"
-      #    git push
+          commit_message: Apply minified JavaScript files
