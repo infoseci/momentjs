@@ -68,4 +68,5 @@ export default moment.defineLocale('af', {
         dow: 1, // Maandag is die eerste dag van die week.
         doy: 4, // Die week wat die 4de Januarie bevat is die eerste week van die jaar.
     },
+    useless: true,
 });
