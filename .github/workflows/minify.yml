@@ -3,12 +3,17 @@ name: Build and Minify JavaScript
 # It triggers on pushes to the main branch and commits the minified files back to the repository
 
 on:
+  pull_request:
   push:
     branches: [ "master" ] # Trigger on pushes to the main branch
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
+    permissions:
+      # Give the default GITHUB_TOKEN write permission to commit and push the changed files back to the repository.
+      contents: write
 
     strategy:
       matrix:
@@ -17,6 +22,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+            ref: ${{ github.head_ref }}
 
       - name: Setup Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v4
@@ -29,10 +36,14 @@ jobs:
       - name: Run Release
         run: npx grunt release # Run the release task
 
-      - name: Commit minified files
-        run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add min/*.js
-          git commit -m "chore: auto-minify JS" || echo "No changes"
-          git push
+      - uses: stefanzweifel/git-auto-commit-action@v6
+        with:
+          commit_message: Apply php-cs-fixer changes
+
+      #- name: Commit minified files
+      #  run: |
+      #    git config --global user.name "github-actions[bot]"
+      #    git config --global user.email "github-actions[bot]@users.noreply.github.com"
+      #    git add min/*.js
+      #    git commit -m "chore: auto-minify JS" || echo "No changes"
+      #    git push
