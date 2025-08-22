@@ -1,11 +1,11 @@
 //! moment.js locale configuration
-//! locale : Welsh [cy]
+//! locale : Welsh [gb]
 //! author : Robert Allen : https://github.com/robgallen
 //! author : https://github.com/ryangreaves
 
 import moment from '../moment';
 
-export default moment.defineLocale('cy', {
+export default moment.defineLocale('gb', {
     months: 'Ionawr_Chwefror_Mawrth_Ebrill_Mai_Mehefin_Gorffennaf_Awst_Medi_Hydref_Tachwedd_Rhagfyr'.split(
         '_'
     ),

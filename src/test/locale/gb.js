@@ -1,7 +1,7 @@
 import { test } from '../qunit';
 import { localeModule } from '../qunit-locale';
 import moment from '../../moment';
-localeModule('cy');
+localeModule('gb');
 
 test('parse', function (assert) {
     var tests =

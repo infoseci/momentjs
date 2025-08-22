@@ -1,7 +1,7 @@
 import { test } from '../qunit';
 import { localeModule } from '../qunit-locale';
 import moment from '../../moment';
-localeModule('ar-dz');
+localeModule('dz');
 
 test('parse', function (assert) {
     var tests =
@@ -468,17 +468,17 @@ test('no leading zeros in long date formats', function (assert) {
 });
 
 // locale-specific
-test('ar-dz strict mode parsing works', function (assert) {
+test('dz strict mode parsing works', function (assert) {
     var m, formattedDate;
-    m = moment().locale('ar-dz');
+    m = moment().locale('dz');
     formattedDate = m.format('l');
     assert.equal(
-        moment.utc(formattedDate, 'l', 'ar-dz', false).isValid(),
+        moment.utc(formattedDate, 'l', 'dz', false).isValid(),
         true,
         'Non-strict parsing works'
     );
     assert.equal(
-        moment.utc(formattedDate, 'l', 'ar-dz', true).isValid(),
+        moment.utc(formattedDate, 'l', 'dz', true).isValid(),
         true,
         'Strict parsing must work'
     );

@@ -1,5 +1,5 @@
 //! moment.js locale configuration
-//! locale : Arabic (Algeria) [ar-dz]
+//! locale : Arabic (Algeria) [dz]
 //! author : Amine Roukh: https://github.com/Amine27
 //! author : Abdel Said: https://github.com/abdelsaid
 //! author : Ahmed Elkhatib
@@ -96,7 +96,7 @@ var pluralForm = function (n) {
         'ديسمبر',
     ];
 
-export default moment.defineLocale('ar-dz', {
+export default moment.defineLocale('dz', {
     months: months,
     monthsShort: months,
     weekdays: 'الأحد_الإثنين_الثلاثاء_الأربعاء_الخميس_الجمعة_السبت'.split('_'),
