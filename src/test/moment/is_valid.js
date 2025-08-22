@@ -527,7 +527,7 @@ test('0 hour is invalid in strict', function (assert) {
 
 test('format locale', function (assert) {
     var a = [
-            ['uto 15.05.2018', 'dd DD.MM.YYYY', 'bs'],
+            ['uto 15.05.2018', 'dd DD.MM.YYYY', 'ba'],
             ['dt 15.05.2018', 'dd DD.MM.YYYY', 'ca'],
             ['Di 15.05.2018', 'dd DD.MM.YYYY', 'de-dt'],
             ['Di 15.05.2018', 'dd DD.MM.YYYY', 'de'],
