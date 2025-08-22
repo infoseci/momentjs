@@ -1,5 +1,5 @@
 //! moment.js locale configuration
-//! locale : Czech [cz]
+//! locale : Czech [cs]
 //! author : petrbela : https://github.com/petrbela
 
 import moment from '../moment';
@@ -91,7 +91,7 @@ function translate(number, withoutSuffix, key, isFuture) {
     }
 }
 
-export default moment.defineLocale('cz', {
+export default moment.defineLocale('cs', {
     months: months,
     monthsShort: monthsShort,
     monthsRegex: monthsRegex,
