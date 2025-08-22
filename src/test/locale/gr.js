@@ -1,7 +1,7 @@
 import { test } from '../qunit';
 import { localeModule } from '../qunit-locale';
 import moment from '../../moment';
-localeModule('el');
+localeModule('gr');
 
 test('parse', function (assert) {
     var i,
@@ -71,24 +71,24 @@ test('parse meridiem', function (assert) {
     // test that a formatted moment including meridiem string can be parsed back to the same moment
     assert.ok(
         b.isSame(
-            moment(b.format('h:mm:ss a'), 'h:mm:ss a', 'el', true),
+            moment(b.format('h:mm:ss a'), 'h:mm:ss a', 'gr', true),
             'seconds'
         ),
         b.format('h:mm:ss a') +
             ' should be equal to ' +
-            moment(b.format('h:mm:ss a'), 'h:mm:ss a', 'el', true).format(
+            moment(b.format('h:mm:ss a'), 'h:mm:ss a', 'gr', true).format(
                 'h:mm:ss a'
             )
     );
 
     // test that a formatted moment having a meridiem string can be parsed with strict flag
     assert.ok(
-        moment(b.format('h:mm:ss a'), 'h:mm:ss a', 'el', true).isValid(),
+        moment(b.format('h:mm:ss a'), 'h:mm:ss a', 'gr', true).isValid(),
         b.format('h:mm:ss a') + ' should be parsed as valid'
     );
 
     for (i = 0; i < meridiemTests.length; i++) {
-        parsed = moment(meridiemTests[i][0], 'h a', 'el', true);
+        parsed = moment(meridiemTests[i][0], 'h a', 'gr', true);
         assert.equal(
             parsed.isValid(),
             meridiemTests[i][2],

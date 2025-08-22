@@ -1,10 +1,10 @@
 //! moment.js locale configuration
-//! locale : Georgian [ka]
+//! locale : Georgian [ge]
 //! author : Irakli Janiashvili : https://github.com/IrakliJani
 
 import moment from '../moment';
 
-export default moment.defineLocale('ka', {
+export default moment.defineLocale('ge', {
     months: 'იანვარი_თებერვალი_მარტი_აპრილი_მაისი_ივნისი_ივლისი_აგვისტო_სექტემბერი_ოქტომბერი_ნოემბერი_დეკემბერი'.split(
         '_'
     ),

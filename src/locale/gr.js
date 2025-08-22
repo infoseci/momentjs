@@ -1,5 +1,5 @@
 //! moment.js locale configuration
-//! locale : Greek [el]
+//! locale : Greek [gr]
 //! author : Aggelos Karalias : https://github.com/mehiel
 
 import moment from '../moment';
@@ -11,7 +11,7 @@ function isFunction(input) {
     );
 }
 
-export default moment.defineLocale('el', {
+export default moment.defineLocale('gr', {
     monthsNominativeEl:
         'Ιανουάριος_Φεβρουάριος_Μάρτιος_Απρίλιος_Μάιος_Ιούνιος_Ιούλιος_Αύγουστος_Σεπτέμβριος_Οκτώβριος_Νοέμβριος_Δεκέμβριος'.split(
             '_'

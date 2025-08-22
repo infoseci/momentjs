@@ -1,7 +1,7 @@
 import { test } from '../qunit';
 import { localeModule } from '../qunit-locale';
 import moment from '../../moment';
-localeModule('zh-hk');
+localeModule('hk');
 
 test('parse', function (assert) {
     var tests =

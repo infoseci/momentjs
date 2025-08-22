@@ -110,7 +110,7 @@ export function defineCommonLocaleTests(locale, options) {
             var r;
             r = moment(m.format(format), format);
             assert.equal(r.month(), m.month(), 'month ' + i + ' fmt ' + format);
-            if (locale !== 'ka') {
+            if (locale !== 'ge') {
                 r = moment(m.format(format).toLocaleUpperCase(), format);
                 assert.equal(
                     r.month(),
@@ -131,7 +131,7 @@ export function defineCommonLocaleTests(locale, options) {
                 m.month(),
                 'month ' + i + ' fmt ' + format + ' strict'
             );
-            if (locale !== 'ka') {
+            if (locale !== 'ge') {
                 r = moment(m.format(format).toLocaleUpperCase(), format, true);
                 assert.equal(
                     r.month(),
@@ -185,7 +185,7 @@ export function defineCommonLocaleTests(locale, options) {
                     m.toISOString();
             r = moment(m.format(format), format);
             assert.equal(r.weekday(), m.weekday(), baseMsg);
-            if (locale !== 'ka') {
+            if (locale !== 'ge') {
                 r = moment(m.format(format).toLocaleUpperCase(), format);
                 assert.equal(r.weekday(), m.weekday(), baseMsg + ' upper');
             }
@@ -193,7 +193,7 @@ export function defineCommonLocaleTests(locale, options) {
             assert.equal(r.weekday(), m.weekday(), baseMsg + ' lower');
             r = moment(m.format(format), format, true);
             assert.equal(r.weekday(), m.weekday(), baseMsg + ' strict');
-            if (locale !== 'ka') {
+            if (locale !== 'ge') {
                 r = moment(m.format(format).toLocaleUpperCase(), format, true);
                 assert.equal(
                     r.weekday(),
